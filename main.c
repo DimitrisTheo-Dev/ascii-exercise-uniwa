@@ -1,8 +1,11 @@
-void ascithema() {
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
 
-    int N;
+void ascithema() {
     char **pin;
-    int i;
+    int i, N;
     printf("Dwse mou enan arithmo TWRA: ");
     scanf("%d", &N);
     pin = (char **) malloc(N*sizeof(char*));
